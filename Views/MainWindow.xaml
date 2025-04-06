@@ -1,0 +1,107 @@
+﻿<Window x:Class="Zutrittskontrollen_Simulator_v2._0.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zutrittskontrollen_Simulator_v2._0"
+        mc:Ignorable="d"
+        Icon="/Resources/Images/Icon.png"
+        Height="900"
+        MinHeight="500"
+        Width="1100"
+        MinWidth="500"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        ResizeMode="CanResizeWithGrip"
+        MouseLeftButtonDown="DragWindow"
+        DataContext="{Binding MainViewModel}">
+    <Grid>
+        <!-- Background -->
+        <Border CornerRadius="15 15 10 10"
+                Background="WhiteSmoke"
+                Padding="10">
+            <Border.Effect>
+                <DropShadowEffect Color="#000000"
+                                  Opacity="0.5"
+                                  Direction="90"
+                                  ShadowDepth="2"
+                                  BlurRadius="35" />
+            </Border.Effect>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <!-- Title / Icon / Button -->
+                <Border Grid.Row="0"
+                        Height="40"
+                        CornerRadius="10 10 0 0"
+                        HorizontalAlignment="Stretch"
+                        Background="#F32F2E2E">
+
+                    <Grid>
+                        <!-- Icon, Title -->
+                        <WrapPanel VerticalAlignment="Center">
+                            <Image Source="/Resources/Images/Icon.png"
+                                   Height="30"
+                                   Width="30"
+                                   Margin="6 0 10 0"
+                                   HorizontalAlignment="Left" />
+
+                            <TextBlock Text="Zutrittskontrollen Simulator"
+                                       FontSize="25"
+                                       VerticalAlignment="Center"
+                                       Foreground="#FFBDBDBD" />
+                        </WrapPanel>
+
+                        <!-- Minimize-, Min/Max-, Close-Button -->
+                        <StackPanel Margin="0 0 10 0"
+                                    Orientation="Horizontal"
+                                    HorizontalAlignment="Right">
+
+                            <!-- Minimize Button -->
+                            <Button Style="{StaticResource TitleBarButtonStyle}"
+                                    Click="MinimizeAppClick">
+                                <Image Source="/Resources/Images/Minimize.png"
+                                       Height="18"
+                                       Width="18"
+                                       HorizontalAlignment="Center" />
+                            </Button>
+
+                            <!-- Min/Max Button -->
+                            <Button Style="{StaticResource TitleBarButtonStyle}"
+                                    Click="MaximizeAppClick">
+                                <Image x:Name="MaximizePNG"
+                                       Source="/Resources/Images/Maximize.png"
+                                       Height="15"
+                                       Width="15"
+                                       HorizontalAlignment="Center" />
+                            </Button>
+
+                            <!-- Close Button -->
+                            <Button Style="{StaticResource TitleBarButtonStyle}"
+                                    Click="CloseAppClick">
+                                <Image Source="/Resources/Images/Close.png"
+                                       Height="20"
+                                       Width="20"
+                                       HorizontalAlignment="Center" />
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+
+                <!-- NuGet Package "SimpleModal.WPF" (handling navigation ModalViewModel) -->
+                <!--<custom:Modal Grid.Row="1"
+                              Panel.ZIndex="1"
+                              IsOpen="{Binding IsModalOpen}">
+                    <ContentControl Content="{Binding CurrentModalViewModel}" />
+                </custom:Modal>-->
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

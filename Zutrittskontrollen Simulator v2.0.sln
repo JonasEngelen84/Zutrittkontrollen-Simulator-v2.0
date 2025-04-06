@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zutrittskontrollen Simulator v2.0", "Zutrittskontrollen Simulator v2.0.csproj", "{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1082229-8AEE-4E9E-AB4C-A629E3A5F23E}
+	EndGlobalSection
+EndGlobal
