@@ -1,10 +1,10 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Windows;
-using Zutrittskontrollen_Simulator_v2._0.ViewModels;
-using Zutrittskontrollen_Simulator_v2._0.Views;
+using Zutrittkontrollen_Simulator_v2._0.ViewModels;
+using Zutrittkontrollen_Simulator_v2._0.Views;
 
-namespace Zutrittskontrollen_Simulator_v2._0
+namespace Zutrittkontrollen_Simulator_v2._0
 {
     public partial class App : Application
     {

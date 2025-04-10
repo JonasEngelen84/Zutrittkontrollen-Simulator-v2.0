@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zutrittskontrollen Simulator v2.0", "Zutrittskontrollen Simulator v2.0.csproj", "{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zutrittkontrollen Simulator v2.0.WPF", "Zutrittkontrollen Simulator v2.0.WPF\Zutrittkontrollen Simulator v2.0.WPF.csproj", "{76E97DB9-00EB-406F-8FF5-9917BEE5AF1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

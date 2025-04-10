@@ -2,7 +2,7 @@
 using System.Windows.Input;
 using System.Windows.Media.Imaging;
 
-namespace Zutrittskontrollen_Simulator_v2._0.Views
+namespace Zutrittkontrollen_Simulator_v2._0.Views
 {
     public partial class MainWindow : Window
     {

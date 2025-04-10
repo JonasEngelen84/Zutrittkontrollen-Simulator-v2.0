@@ -1,9 +1,9 @@
-﻿<Window x:Class="Zutrittskontrollen_Simulator_v2._0.Views.MainWindow"
+﻿<Window x:Class="Zutrittkontrollen_Simulator_v2._0.Views.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Zutrittskontrollen_Simulator_v2._0"
+        xmlns:local="clr-namespace:Zutrittkontrollen_Simulator_v2._0"
         mc:Ignorable="d"
         Icon="/Resources/Images/Icon.png"
         Height="900"
@@ -52,7 +52,7 @@
                                    Margin="6 0 10 0"
                                    HorizontalAlignment="Left" />
 
-                            <TextBlock Text="Zutrittskontrollen Simulator"
+                            <TextBlock Text="Zutrittkontrollen Simulator"
                                        FontSize="25"
                                        VerticalAlignment="Center"
                                        Foreground="#FFBDBDBD" />
